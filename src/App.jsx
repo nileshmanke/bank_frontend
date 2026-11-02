@@ -703,61 +703,41 @@ function App() {
 
             {/* CREATOR INFORMATION */}
 
-            <div className="creator-card" id="about">
-
-              <div className="creator-heading">
-                <GraduationCap size={19} />
-                ABOUT THE PROJECT
-              </div>
-
-              <h3>
-                Built with data.
-                <br />
-                Powered by intelligence.
-              </h3>
-
-              <p>
-                An academic machine learning project
-                developed to analyze bank loan risk
-                using applicant information.
-              </p>
-
-              <div className="creator-profile">
-
-                <div className="creator-avatar">
-                  SQ
-                </div>
-
-                <div>
-                  <small>
-                    CREATED & DATASET COLLECTED BY
-                  </small>
-
-                  <h4>Shakir Qureshi</h4>
-
-                  <span>MCA Student</span>
-                </div>
-
-                <CheckCircle2
-                  size={20}
-                  className="verified-icon"
-                />
-
-              </div>
-
-              <div className="creator-meta">
-                <span>ALGORITHM</span>
-                <strong>Random Forest Classifier</strong>
-              </div>
-
-              <div className="creator-meta">
-                <span>DATASET</span>
-                <strong>Collected by Shakir Qureshi</strong>
-              </div>
-
-            </div>
-
           </div>
+          
+            <div className="creator-profile">
+  <div className="creator-avatar">
+    SQ
+  </div>
+
+  <div>
+    <small>MODEL CREATOR & DATASET COLLECTOR</small>
+    <h4>Shakir Qureshi</h4>
+    <span>MCA Student</span>
+  </div>
+
+  <CheckCircle2
+    size={20}
+    className="verified-icon"
+  />
+</div>
+
+<div className="creator-profile">
+  <div className="creator-avatar">
+    RR
+  </div>
+
+  <div>
+    <small>DATA CLEANING & EDA</small>
+    <h4>Rahul Rathod</h4>
+    <span>MCA Student</span>
+  </div>
+
+  <CheckCircle2
+    size={20}
+    className="verified-icon"
+  />
+</div>
 
         </section>
 
