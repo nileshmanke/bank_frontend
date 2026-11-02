@@ -25,7 +25,7 @@ import {
 } from "lucide-react";
 
 // Flask API URL
-const API_URL = "http://127.0.0.1:5000";
+const API_URL = "https://bank-backend-1-p2q1.onrender.com";
 
 // Initial form values
 const initialForm = {
