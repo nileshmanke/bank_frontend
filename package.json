@@ -6,8 +6,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+  "prebuild": "chmod +x node_modules/vite/bin/vite.js",
+  "build": "vite build",
+  "preview": "vite preview"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",
